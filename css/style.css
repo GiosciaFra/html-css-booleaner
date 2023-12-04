@@ -1,9 +1,11 @@
 header {
-    
-    background: url(pattern.png);
-    height: 100px;
-    width: 1280px;
-    background-size: contain;
-    background-repeat: repeat;
-    
+    background-color: aquamarine;    
+}
+
+h3 {
+    color: darkgray;
+}
+
+.highlight {
+    color: rgb(63, 201, 255);
 }
