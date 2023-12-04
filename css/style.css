@@ -34,7 +34,12 @@ p, ul, table {
 }
 
 table {
+    width: 100%;
     border-collapse: collapse;
+}
+
+tr {
+    text-align: left;
 }
 
 
@@ -45,6 +50,7 @@ thead {
 }
 
 .tr-1, .tr-3 {
+
     background-color: rgb(0, 255, 255);
 }
 
