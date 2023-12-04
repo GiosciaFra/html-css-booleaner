@@ -1,13 +1,19 @@
+
+
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
+
 }
 
 
 
 header {
-    background-color: aquamarine;    
+    background-color: aquamarine;
+    background-image: url(../img/pattern.png);
+
 }
 
 h3 {
@@ -27,6 +33,9 @@ p, ul, table {
     font-weight: 600;
 }
 
+table {
+    border-collapse: collapse;
+}
 
 
 thead {
@@ -40,6 +49,6 @@ thead {
 }
 
 h4 {
-    
+
     color: gray;
 }
