@@ -1,24 +1,33 @@
 
-
-
-body {
-    height: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 0;
-}
-
-
-
-header {
-    background-color: aquamarine;
+/* stile nav */
+nav {
+    background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
-    background-size: 40%;
-    height: 150px;
+    background-size: auto 200%;
     
 }
 
-h3 {
+/* custom logo */
+
+#logo {
+    width: 160px;
+    height: auto;
+
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+}
+
+/* bonus */
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+/* header */
+
+#subtitle {
     color: darkgray;
 }
 
@@ -26,18 +35,34 @@ h3 {
     color: rgb(63, 201, 255);
 }
 
+/* sezione immagini */
+figure {
+    margin: 0;
+}
 
+
+/* sezione testo-sottolineato */
 .highlight-2 {
     background-color: yellow;
 }
+
+/* sezione tabella */
 
 p, ul, table {
     font-weight: 600;
 }
 
+.colonna-25 {
+    width: 25%;
+}
+
 table {
-    width: 100%;
     border-collapse: collapse;
+}
+
+
+th{
+    text-align: left;
 }
 
 tr {
@@ -48,15 +73,35 @@ tr {
 thead {
     color: white;
     font-weight: bold;
-    background-color: rgb(46, 150, 211);
+    background-color: #20a9e5;
 }
 
 .tr-1, .tr-3 {
 
-    background-color: rgb(0, 255, 255);
+    background-color:#b1e5f2;
 }
 
-h4 {
 
+/* sezione potrebbe interessarti */
+h2 {
+    font-size: 1.1em;
     color: gray;
+}
+
+.article-image {
+    width: 250px;
+    height: 180px;
+
+    margin-bottom: 12px;
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.article-image-title {
+    margin-left: 8px;
 }
